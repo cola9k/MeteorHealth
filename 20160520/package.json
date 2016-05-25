@@ -1,0 +1,10 @@
+{
+  "name": "d_20121757_20160520",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
