@@ -1,0 +1,70 @@
+<template name="layout">
+    <!--&lt;!&ndash;body안에 들어갈 녀석만 템플릿으로 넣는다&ndash;&gt;-->
+    <!--<h1>HomeGym Trainner</h1>-->
+
+    <!--&lt;!&ndash;하이퍼링크 부르는 법 1)&ndash;&gt;-->
+    <!--&lt;!&ndash;html의 내부 하이퍼링크에 가는 법 #&ndash;&gt;-->
+    <!--&lt;!&ndash;<a href="/">홈</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a href="/about">소개</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a href="/press">언론정보</a>&ndash;&gt;-->
+    <!--&lt;!&ndash;<a href="/contact">연락처</a>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;하이퍼링크 부르는 법 2)&ndash;&gt;-->
+    <!--&lt;!&ndash;pathFor 는 name이다&ndash;&gt;-->
+    <!--<a href="{{pathFor 'home'}}">홈</a>-->
+    <!--<a href="{{pathFor 'rotation'}}">로테이션</a>-->
+    <!--<a href="{{pathFor 'feed'}}">Feed</a>-->
+    <!--<a href="{{pathFor 'myinfo'}}">내 정보</a>-->
+
+    <!--{{>yield}}-->
+    <!--&lt;!&ndash;Router가 템플릿으로 로딩 된다.Router를 생략하면 copyright가 밑에 만들어 진다,&ndash;&gt;-->
+    <!--&lt;!&ndash;{{>Router}}&ndash;&gt;-->
+    <!--<p>copyright 2016 태현 all right reserved.</p>-->
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="{{pathFor '#'}}">
+                        <h2>H.G.T</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'feed'}}">Feed</a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'rotation'}}">Rotation</a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'myinfo'}}">MyInfo</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        {{>yield}}
+        <!-- Page Content -->
+
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</template>
