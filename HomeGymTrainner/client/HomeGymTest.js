@@ -11,6 +11,7 @@ Router.route('/',{name:'home'});
 Router.route('/rotation',{name:'rotation'});
 Router.route('/feed',{name:'feed'});
 Router.route('/myinfo',{name:'myinfo'});
+<<<<<<< HEAD
 Router.route('/oneset',{name:'oneset'});
 Router.route('/twoset',{name:'twoset'});
 Router.route('/threeset',{name:'threeset'});
@@ -115,7 +116,39 @@ Template.threeset.helpers({
     return Session.get('playList');
   }
 });
+=======
+Router.route('/posttest', {name:'posttest'});
+onYouTubeIframeAPIReady = function () {
 
+  // New Video Player, the first argument is the id of the div.
+  // Make sure it's a global variable.
+
+    player = new YT.Player("player", {
+
+      height: "400",
+      width: "600",
+
+      // videoId is the "v" in URL (ex: http://www.youtube.com/watch?v=LdH1hSWGFGU, videoId = "LdH1hSWGFGU")
+      videoId: "LdH1hSWGFGU",
+
+      // Events like ready, state change, 
+      events: {
+
+        onReady: function (event) {
+
+          // Play video when player ready.
+          event.target.playVideo();
+        }
+
+      }
+
+    });
+
+  }
+  ;
+>>>>>>> origin/master
+
+  YT.load();
 
 // 사용자 화면 초기화 및 사용자 정보 보호?
 //if(Meteor.isClient){
