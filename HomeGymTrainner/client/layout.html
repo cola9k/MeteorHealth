@@ -1,3 +1,4 @@
+
 <template name="layout">
     <!--&lt;!&ndash;body안에 들어갈 녀석만 템플릿으로 넣는다&ndash;&gt;-->
     <!--<h1>HomeGym Trainner</h1>-->
@@ -11,6 +12,8 @@
 
     <!--&lt;!&ndash;하이퍼링크 부르는 법 2)&ndash;&gt;-->
     <!--&lt;!&ndash;pathFor 는 name이다&ndash;&gt;-->
+
+
     <!--<a href="{{pathFor 'home'}}">홈</a>-->
     <!--<a href="{{pathFor 'rotation'}}">로테이션</a>-->
     <!--<a href="{{pathFor 'feed'}}">Feed</a>-->
@@ -25,19 +28,17 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
+                <!--<a href="{{pathFor '/'}}"></a>-->
                 <li class="sidebar-brand">
-                    <a href="{{pathFor '#'}}">
+                    <a href="{{pathFor 'home'}}">
                         <h2>H.G.T</h2>
                     </a>
-                </li>
-                <li>
-                    <a href=""></a>
                 </li>
                 <li>
                     <a href="{{pathFor 'feed'}}">Feed</a>
                 </li>
                 <li>
-                    <a href="{{pathFor 'rotation'}}">Rotation</a>
+                    <a href="{{pathFor 'rotation'}}" id="player">Rotation</a>
                 </li>
                 <li>
                     <a href="{{pathFor 'myinfo'}}">MyInfo</a>
