@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/app/DescentGym.css"],"names":[],"mappings":"AAAA;;AAGA;EACI;;;AAGJ;EACI;EACA;;;AAIJ;EACI;EACA","sourcesContent":["/* CSS declarations go here */\n\n\nbody {\n    background-color: lightgray;\n}\n\nh1 {\n    color: red;\n    text-align: left;\n\n}\n\nh2 {\n    color: white;\n    text-align: left;\n}\n\n\n"]}
