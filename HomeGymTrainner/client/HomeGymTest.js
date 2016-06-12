@@ -14,6 +14,8 @@ Router.route('/myinfo',{name:'myinfo'});
 Router.route('/oneset',{name:'oneset'});
 Router.route('/twoset',{name:'twoset'});
 Router.route('/threeset',{name:'threeset'});
+Router.route('/login',{name:'login'});
+Router.route('/join',{name:'join'});
 
 var num = 0;
 var t1 = "하체운동";
@@ -21,6 +23,15 @@ var t1 = "하체운동";
 // item 초기화
 if(num >5)
   num = 0;
+
+Template.home.events({
+  'click #logout-form' : function(event,template){
+    Meteor.logout(function(){
+      event.preventDefault();
+      Modal.hide(template);
+    });
+  }
+});
 
 // helper에 먼저 call 하기위해 시작
 Meteor.startup(function(){
@@ -115,6 +126,59 @@ Template.threeset.helpers({
     return Session.get('playList');
   }
 });
+
+///////////////////////////////////////////////////
+// 로그인 & 회원가입
+
+Template.login.events({
+  'click #front-login-submit':function(event,temp){
+    var username = temp.find('input[id=front-login-username]').value;
+    var password = temp.find('input[id=front-login-password]').value;
+
+    Meteor.loginWithPassword(username, password, function(err){
+      if (err){
+        alert('로그인 실패!!!.');
+      }
+      else{
+        alert('로그인 성공!!!');
+        Router.go('/home');
+        console.log(Meteor.user());
+      }
+    });
+  },
+
+
+
+  'click #change-to-join' : function(){
+    Router.go('/join');
+  }
+});
+
+Template.join.events({
+  'click #front-join-submit':function(event,temp){
+    var joinObject = {
+      username : temp.find('input[id=front-join-username]').value,
+      password : temp.find('input[id=front-join-password]').value
+    };
+
+    Accounts.createUser(joinObject, function(err){
+      if (err){
+        alert('가입 실패!!!.');
+      }
+      else{
+        alert('가입 성공!!!');
+        Router.go('/home');
+        console.log(Meteor.user());
+      }
+    });
+  },
+
+  'click #change-to-login' : function(){
+    Router.go('/home');
+  }
+});
+
+
 // 사용자 화면 초기화 및 사용자 정보 보호?
 //if(Meteor.isClient){
 //  //Session.setDefault('counter', 0);
