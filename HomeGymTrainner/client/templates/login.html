@@ -9,12 +9,21 @@
 
                         <form id="front-login">
                             <input id="front-login-username" type="text" placeholder="아이디">
+                            <br>
                             <input id="front-login-password" type="password" placeholder="비밀번호">
-                            <div id="front-login-submit"><h4>로그인</H4></div>
-
+                            <br>
+                            <div id="front-login-submit">
+                                <div class="btn-group btn_ic_col" data-toggle="buttons-radio">
+                                    <button name="iconcolor" type="button" class="btn" ico_data="icon-white">로그인</button>
+                                </div>
+                            </div>
+                            <br>
                             <div id="front-login-or-join">
-                                <!--<div id="change-to-login">로그인</div>-->
-                                <div id="change-to-join">회원가입</div>
+                                <div id="change-to-join">
+                                    <div class="btn-group btn_ic_col" data-toggle="buttons-radio">
+                                        <button name="iconcolor" type="button" class="btn btn-inverse active" ico_data="">회원가입</button>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                     {{/unless}}

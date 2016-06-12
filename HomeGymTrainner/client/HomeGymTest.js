@@ -24,10 +24,12 @@ var t1 = "하체운동";
 if(num >5)
   num = 0;
 
-Template.home.events({
+Template.myinfo.events({
   'click #logout-form' : function(event,template){
     Meteor.logout(function(){
       event.preventDefault();
+      alert('로그아웃!!!');
+      Router.go('/');
       Modal.hide(template);
     });
   }
@@ -129,7 +131,6 @@ Template.threeset.helpers({
 
 ///////////////////////////////////////////////////
 // 로그인 & 회원가입
-
 Template.login.events({
   'click #front-login-submit':function(event,temp){
     var username = temp.find('input[id=front-login-username]').value;
@@ -141,7 +142,7 @@ Template.login.events({
       }
       else{
         alert('로그인 성공!!!');
-        Router.go('/home');
+        Router.go('/');
         console.log(Meteor.user());
       }
     });

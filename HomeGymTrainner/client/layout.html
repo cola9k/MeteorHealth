@@ -7,21 +7,33 @@
                 <!--<a href="{{pathFor '/'}}"></a>-->
                 <li class="sidebar-brand">
                     <a href="{{pathFor 'home'}}">
-                        <h2>H.G.T</h2>
+                        <h1>H.G.T</h1>
                     </a>
                 </li>
                 <li>
-                    <a href="{{pathFor 'login'}}">Login</a>
+                    <!--1. 비로그인시 로그인 화면-->
+                    <!--2. 로그인시 내 정보 화면-->
+                    {{#if currentUser}}
+                        <a href="{{pathFor 'myinfo'}}"><h3>MyInfo</h3></a>
+                    {{else}}
+                        <a href="{{pathFor 'login'}}"><h3>Login</h3></a>
+                    {{/if}}
                 </li>
                 <li>
-                    <a href="{{pathFor 'feed'}}">Feed</a>
+                    <a href="{{pathFor 'feed'}}"><h3>Feed</h3></a>
                 </li>
                 <li>
-                    <a href="{{pathFor 'rotation'}}" id="player">Rotation</a>
+                    <a href="{{pathFor 'rotation'}}" id="player"><h3>Rotation</h3></a>
                 </li>
-                <li>
-                    <a href="{{pathFor 'myinfo'}}">MyInfo</a>
-                </li>
+                <!--<li>-->
+                    <!--&lt;!&ndash;1. 비로그인시 로그인 화면&ndash;&gt;-->
+                    <!--&lt;!&ndash;2. 로그인시 내 정보 화면&ndash;&gt;-->
+                    <!--{{#if currentUser}}-->
+                        <!--<a href="{{pathFor 'myinfo'}}">MyInfo</a>-->
+                        <!--{{else}}-->
+                        <!--<a href="{{pathFor 'login'}}">Login</a>-->
+                    <!--{{/if}}-->
+                <!--</li>-->
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
