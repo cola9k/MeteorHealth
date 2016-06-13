@@ -4,7 +4,6 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <!--<a href="{{pathFor '/'}}"></a>-->
                 <li class="sidebar-brand">
                     <a href="{{pathFor 'home'}}">
                         <h1>H.G.T</h1>
@@ -23,26 +22,15 @@
                     <a href="{{pathFor 'feed'}}"><h3>Feed</h3></a>
                 </li>
                 <li>
-                    <a href="{{pathFor 'rotation'}}" id="player"><h3>Rotation</h3></a>
+                    <a href="{{pathFor 'rotation'}}"><h3>Rotation</h3></a>
                 </li>
-                <!--<li>-->
-                    <!--&lt;!&ndash;1. 비로그인시 로그인 화면&ndash;&gt;-->
-                    <!--&lt;!&ndash;2. 로그인시 내 정보 화면&ndash;&gt;-->
-                    <!--{{#if currentUser}}-->
-                        <!--<a href="{{pathFor 'myinfo'}}">MyInfo</a>-->
-                        <!--{{else}}-->
-                        <!--<a href="{{pathFor 'login'}}">Login</a>-->
-                    <!--{{/if}}-->
-                <!--</li>-->
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
         {{>yield}}
-        <!-- Page Content -->
-
-        <!-- /#page-content-wrapper -->
-
+        <br>
     </div>
+
     <!-- /#wrapper -->
 
     <!-- jQuery -->
