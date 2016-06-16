@@ -2,7 +2,29 @@
   <library name="meteor-packages-auto-import-npm" type="javaScript">
     <properties>
       <sourceFilesUrls>
-<<<<<<< HEAD
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/cookie.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/session.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/memory.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/store.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/index.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/request.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/index.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/helpers.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/copy.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/getProxyFromURI.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/oauth.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/auth.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/testfiles.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/cookies.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/update.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/regexps.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/update.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/features/index.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/trim.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/index.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-match.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/throbber.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-colors.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-parse/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/bin/extract-props.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/propmangle.js" />
@@ -19,8 +41,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-stringify/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/test_set_runner.js" />
-=======
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/connection_proxy_emulator.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/github3.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/gleak.js" />
@@ -78,21 +98,13 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/read_preference.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/connection_utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/connection_pool.js" />
-<<<<<<< HEAD
-=======
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/index.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/url_parser.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/base.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/mongos.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/common.js" />
-<<<<<<< HEAD
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/ordered.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" />
-=======
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/simpleserver.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/pool.js" />
@@ -100,7 +112,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/server.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/register.js" />
@@ -111,24 +122,18 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/util.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/options.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/runtime.js" />
-<<<<<<< HEAD
-=======
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/dkim.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/urlfetch.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/mailcomposer.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/punycode.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/cache.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/async-await.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/named-function-expressions.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/sanitize-for-in-objects.js" />
-<<<<<<< HEAD
-=======
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/constants.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/streambuffer.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/writable_streambuffer.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/readable_streambuffer.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/docs/sphinx-docs/themes/mongodb/static/reset.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/async/lib/async.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/async/support/sync-package-managers.js" />
@@ -139,45 +144,11 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/lru-cache/lib/lru-cache.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.5.1/npm/node_modules/meteor-promise/fiber_pool.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.5.1/npm/node_modules/meteor-promise/promise.bundle.js" />
-<<<<<<< HEAD
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/simpleserver.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/pool.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/client.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/server.js" />
-=======
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/eventsource.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
-<<<<<<< HEAD
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/dkim.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/urlfetch.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/mailcomposer.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/common.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/punycode.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/client_session.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/read.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/server_session.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/text.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/session.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/raw.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/urlencoded.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/json.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/constants.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/streambuffer.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/writable_streambuffer.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/readable_streambuffer.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/send/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.7.8_2/npm/node_modules/bcrypt/bcrypt.js" />
-=======
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/common.js" />
@@ -186,7 +157,6 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/session.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/send/index.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/sockjs.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/trans-websocket.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/trans-jsonp.js" />
@@ -242,33 +212,32 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-shim.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-sham.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-shim.min.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/cookie.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/session.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/memory.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/store.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/request.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/helpers.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/copy.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/getProxyFromURI.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/oauth.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/auth.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/testfiles.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/cookies.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/update.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/regexps.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/update.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/features/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/trim.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-match.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/throbber.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-colors.js" />
-<<<<<<< HEAD
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/cookie.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/session.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/memory.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/store.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/index.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/request.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/index.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/helpers.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/copy.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/getProxyFromURI.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/oauth.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/auth.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/testfiles.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/cookies.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/update.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/regexps.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/update.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/features/index.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/trim.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/index.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-match.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/throbber.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-colors.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-parse/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/bin/extract-props.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/propmangle.js" />
@@ -285,27 +254,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-stringify/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/test_set_runner.js" />
-=======
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-parse/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/bin/extract-props.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/propmangle.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/scope.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/sourcemap.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/ast.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/utils.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/mozilla-ast.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/output.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/compress.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/transform.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/parse.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/tools/node.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-stringify/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/index.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/test_set_runner.js" />
-      </sourceFilesUrls>
-    </properties>
-    <CLASSES>
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/connection_proxy_emulator.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/github3.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/gleak.js" />
@@ -363,21 +311,13 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/read_preference.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/connection_utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/connection_pool.js" />
-<<<<<<< HEAD
-=======
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/index.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/url_parser.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/base.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/mongos.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/common.js" />
-<<<<<<< HEAD
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/ordered.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" />
-=======
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/simpleserver.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/pool.js" />
@@ -385,7 +325,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/simplesmtp/lib/server.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/register.js" />
@@ -396,24 +335,18 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/util.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/options.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/runtime.js" />
-<<<<<<< HEAD
-=======
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/dkim.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/urlfetch.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/mailcomposer.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/mailcomposer/lib/punycode.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/cache.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/async-await.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/named-function-expressions.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-compiler/5.8.24_1/npm/node_modules/meteor-babel/plugins/sanitize-for-in-objects.js" />
-<<<<<<< HEAD
-=======
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/constants.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/streambuffer.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/writable_streambuffer.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.12/npm/node_modules/stream-buffers/lib/readable_streambuffer.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/docs/sphinx-docs/themes/mongodb/static/reset.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/async/lib/async.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/async/support/sync-package-managers.js" />
@@ -424,45 +357,11 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/caching-compiler/1.0.0/npm/node_modules/lru-cache/lib/lru-cache.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.5.1/npm/node_modules/meteor-promise/fiber_pool.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.5.1/npm/node_modules/meteor-promise/promise.bundle.js" />
-<<<<<<< HEAD
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/simpleserver.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/pool.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/client.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/simplesmtp/lib/server.js" />
-=======
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/eventsource.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
-<<<<<<< HEAD
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/dkim.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/urlfetch.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/mailcomposer.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/common.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/mailcomposer/lib/punycode.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/client_session.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/read.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/server_session.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/text.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/session.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/raw.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/urlencoded.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/json.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/constants.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/streambuffer.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/writable_streambuffer.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/email/1.0.8/npm/node_modules/stream-buffers/lib/readable_streambuffer.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/send/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.7.8_2/npm/node_modules/bcrypt/bcrypt.js" />
-=======
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/common.js" />
@@ -471,7 +370,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/1.2.1/npm/node_modules/permessage-deflate/lib/session.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/send/index.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/sockjs.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/trans-websocket.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-server/1.2.2/npm/node_modules/sockjs/lib/trans-jsonp.js" />
@@ -527,48 +425,6 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-shim.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-sham.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/es5-shim/4.1.14/npm/node_modules/es5-shim/es5-shim.min.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/cookie.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/session.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/memory.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/connect/lib/middleware/session/store.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/request.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/helpers.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/copy.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/getProxyFromURI.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/oauth.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/auth.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/testfiles.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/npm/node_modules/request/lib/cookies.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/bin/update.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/regexps.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/lib/update.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/npm/node_modules/useragent/features/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/trim.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-match.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/throbber.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/logging/1.0.8/npm/node_modules/cli-color/lib/_xterm-colors.js" />
-<<<<<<< HEAD
-=======
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-parse/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/bin/extract-props.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/propmangle.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/scope.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/sourcemap.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/ast.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/utils.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/mozilla-ast.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/output.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/compress.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/transform.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/lib/parse.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/uglify-js/tools/node.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/minifiers/1.1.7/npm/node_modules/css-stringify/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/index.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-mongo/1.4.39_1/npm/node_modules/mongodb/dev/tools/test_set_runner.js" />
->>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
     </CLASSES>
     <SOURCES />
   </library>
