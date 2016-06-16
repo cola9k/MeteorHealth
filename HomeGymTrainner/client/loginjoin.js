@@ -17,8 +17,6 @@ Template.login.events({
         });
     },
 
-
-
     'click #change-to-join' : function(){
         Router.go('/join');
     }
@@ -26,34 +24,34 @@ Template.login.events({
 
 Template.join.events({
     'click #front-join-submit':function(event,temp){
-        var username1 = temp.find('input[id=front-join-username]').value;
-        var password2 = temp.find('input[id=front-join-password]').value;
+        //var username1 = temp.find('input[id=front-join-username]').value;
+        //var password2 = temp.find('input[id=front-join-password]').value;
 
-        //var joinObject = {
-        //  username : temp.find('input[id=front-join-username]').value,
-        //  password : temp.find('input[id=front-join-password]').value
-        //};
+        var joinObject = {
+          username : temp.find('input[id=front-join-username]').value,
+          password : temp.find('input[id=front-join-password]').value
+        };
 
-        Users.insert({
-            userID:username1,
-            pwd: password2,
-            movie: false,
-            createdAt: new Date()
-        });
-
-        //Accounts.createUser(joinObject, function(err){
-        //  if (err){
-        //    alert('가입 실패!!!.');
-        //  }
-        //  else{
-        //    alert('가입 성공!!!');
-        //    Router.go('/home');
-        //    console.log(Meteor.user());
-        //  }
+        //Users.insert({
+        //    userID:username1,
+        //    pwd: password2,
+        //    movie: false,
+        //    createdAt: new Date()
         //});
-    },
 
-    'click #change-to-login' : function(){
-        Router.go('/home');
+        Accounts.createUser(joinObject, function(err){
+          if (err){
+            alert('가입 실패!!!.');
+          }
+          else{
+            alert('가입 성공!!!');
+            Router.go('/myinfo');
+            console.log(Meteor.user());
+          }
+        });
     }
+
+    //'click #change-to-login' : function(){
+    //    Router.go('/login');
+    //}
 });
