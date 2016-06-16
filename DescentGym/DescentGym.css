@@ -1,19 +1,22 @@
 /* CSS declarations go here */
 
-
-body {
-    background-color: lightgray;
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+/* remove navbar-brand to let brand go to left of left navmenu*/
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
 }
 
-h1 {
-    color: red;
-    text-align: left;
-
-}
-
-h2 {
-    color: white;
-    text-align: left;
-}
-
-
+/* - */

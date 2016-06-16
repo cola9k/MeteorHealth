@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--Google Font - Work Sans-->
 
 
+    <!--//modal-기능
     <style>
     .modal-header, h4, .close {
     background-color: #5cb85c;
@@ -14,20 +16,89 @@
     text-align: center;
     font-size: 30px;
     }
-    </style>
+    </style>-->
 </head>
 
-<!--<div class="container">-->
-    <!--<h2>DESCENTE</h2>-->
-    <!--<h1>GYM</h1>-->
-<!--</div>-->
+<div class="container">
+    <h2>DESCENTE</h2>
+    <h1>GYM</h1>
+</div>
 
 <body>
 
-
+<!--상단바-->
 <div class="container">
-    <!--<h2>Modal Login Example</h2>-->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <a class="navbar-brand" href="#">Brand</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">Left</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">Right</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><button type="button" class="btn btn-default btn-lg" id="myBtn2">Login</button></li>
+
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+
+                    </ul>
+
+                </li>
+                <li><a href="#" id="myBtn1">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+    <div class="form">
+    <form class="register-form">
+        <input type="text" placeholder="name"/>
+        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="email address"/>
+        <button>create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+</div>
+
+
+
+<!--login-->
+<div class="container">
+    <h2>Modal Login Example</h2>
     <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
+
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
@@ -35,48 +106,64 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header" style="padding:35px 50px;">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Join</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
                 </div>
+                <div class="modal-register">
+                    <form class="register-form">
+                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="name"/>
+                        <input type="password" placeholder="password"/>
+                        <input type="text" class="form-control" id="email" placeholder="email address"/>
+                        <button>create</button>
+                        <p class="message">Already registered? <a href="#">Sign In</a></p>
+                    </form>
+
                 <div class="modal-body" style="padding:40px 50px;">
                     <form role="form">
                         <div class="form-group">
                             <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-                            <input type="text" class="form-control" id="name" placeholder="username">
+                            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
                         </div>
-
                         <div class="form-group">
                             <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
                             <input type="email" class="form-control" id="email" placeholder="email">
                         </div>
                         <div class="form-group">
                             <label for="psw"><span class="glyphicon glyphicon-lock"></span> Password</label>
-                            <input type="password" class="form-control" id="psw" placeholder="password">
+                            <input type="text" class="form-control" id="psw" placeholder="Enter password">
                         </div>
-                    <div class="checkbox" id="checkbox">
-                        <label><input type="radio" name="gender" value="male">남자</label>
-                        <label><input type="radio" name="gender" value="female">여자</label>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-                    <button type="submit" class="btn btn-danger btn-block" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-                </form>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="" checked="">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-lock"></span> Login</button>
+                    </form>
                 </div>
-                <!--<div class="modal-footer">-->
-                    <!--<p>Not a member? <a href="#">Sign Up</a></p>-->
-
-                    <!--<p>Forgot <a href="#">Password?</a></p>-->
-                <!--</div>-->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                    <p>Not a member? <a href="#">Sign Up</a></p>
+                    <p>Forgot <a href="#">Password?</a></p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<!--<script>-->
-    <!--$(document).ready(function(){-->
-        <!--$("#myBtn").click(function(){-->
-            <!--$("#myModal").modal();-->
-        <!--});-->
-    <!--});-->
-<!--</script>-->
-
 </body>
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $("#myBtn").click(function(){
+            $("#myModal").modal();
+        });
+    });
+</script>
+
+<script>
+    $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+</script>
