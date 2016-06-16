@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: gray;
+}
+
+#header{
+    background-color: black;
+    color:white;
+    text-align: left;
+    padding: 25px;
+}
+
+p {
+    font-size: 30px;
+}
+
+h5 {
+    color:gray;
+}
+
+h6 {
+    font-size: 15px;
+    color:lightgray;
+}
+#nav {
+    background-color: white;
+    color:black;
+    text-align: left;
+    padding: 25px;
+}
+
+
