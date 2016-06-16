@@ -21,7 +21,6 @@ Template.login.events({
         Router.go('/join');
     }
 });
-
 Template.join.events({
     'click #front-join-submit':function(event,temp){
         //var username1 = temp.find('input[id=front-join-username]').value;
