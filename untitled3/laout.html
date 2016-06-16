@@ -1,0 +1,14 @@
+<template name="layout">
+    <aside class="sidebar">
+        <h5 class="room-label">Participants></h5>
+        <section class="main-container">
+            <header class="main-header">JabberBlocy</header>
+            {{#if currentUser}}
+                {{> messageList}}
+                {{newMessage}}
+            {{else}}
+                {{> loginPage}}
+            {{/if}}
+        </section>
+    </aside>
+</template>

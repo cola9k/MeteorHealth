@@ -1,0 +1,23 @@
+<template name="loginPage">
+    <div class="login-overlay">
+        <div class="login-container">
+            <h4 class="login-title">Chat Log In</h4>
+            <form>
+                <label for="username"><span class="glyphicon glyphicon-user"></span> Username</label>
+                <input type="text" name="username" placeholder="username">
+
+                <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+                <input type="email" name="email"   placeholder="email">
+
+                <label for="password"><span class="glyphicon glyphicon-lock"></span> Password</label>
+                <input type="password" name="password" placeholder="password">
+
+
+                <label><input type="radio" name="gender" value="male">남자</label>
+                <label><input type="radio" name="gender" value="female">여자</label>
+
+                <button type="submit" class="login-button">Log in</button>
+            </form>
+        </div>
+    </div>
+</template>
