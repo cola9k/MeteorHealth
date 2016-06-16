@@ -1,5 +1,5 @@
-///////////////////////////////////////////////////
-// 로그인 & 회원가입
+
+// 로그인
 Template.login.events({
     'click #front-login-submit':function(event,temp){
         var username = temp.find('input[id=front-login-username]').value;
@@ -21,22 +21,15 @@ Template.login.events({
         Router.go('/join');
     }
 });
+
+//회원가입
 Template.join.events({
     'click #front-join-submit':function(event,temp){
-        //var username1 = temp.find('input[id=front-join-username]').value;
-        //var password2 = temp.find('input[id=front-join-password]').value;
-
+        // 회원 정보 객체화
         var joinObject = {
           username : temp.find('input[id=front-join-username]').value,
           password : temp.find('input[id=front-join-password]').value
         };
-
-        //Users.insert({
-        //    userID:username1,
-        //    pwd: password2,
-        //    movie: false,
-        //    createdAt: new Date()
-        //});
 
         Accounts.createUser(joinObject, function(err){
           if (err){
@@ -49,8 +42,4 @@ Template.join.events({
           }
         });
     }
-
-    //'click #change-to-login' : function(){
-    //    Router.go('/login');
-    //}
 });

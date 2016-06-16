@@ -1,3 +1,4 @@
-Meteor.publish('u',function(){
-   return Users.find();
+
+Meteor.publish('HInfo', function () {
+   return HealthInfo.find();
 });

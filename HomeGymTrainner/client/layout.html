@@ -6,6 +6,16 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="{{pathFor 'home'}}">
+<<<<<<< HEAD
+                        <h2>H.G.T</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="{{pathFor 'feed'}}">Feed</a>
+=======
                         <h1>H.G.T</h1>
                     </a>
                 </li>
@@ -17,12 +27,15 @@
                     {{else}}
                         <a href="{{pathFor 'login'}}"><h3>Login</h3></a>
                     {{/if}}
+>>>>>>> 682758802a0c46748dc2750f0dc72f43e3151040
                 </li>
                 <li>
                     <a href="{{pathFor 'feed'}}"><h3>Feed</h3></a>
                 </li>
                 <li>
-                    <a href="{{pathFor 'rotation'}}"><h3>Rotation</h3></a>
+                    {{#if currentUser}}
+                        <a href="{{pathFor 'rotation'}}"><h3>Rotation</h3></a>
+                    {{/if}}
                 </li>
             </ul>
         </div>
