@@ -1,0 +1,52 @@
+
+<template name="layout">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="{{pathFor 'home'}}" id="homes">
+                        <h1>H.G.T</h1>
+                    </a>
+                </li>
+                <li>
+                    <!--1. 비로그인시 로그인 화면-->
+                    <!--2. 로그인시 내 정보 화면-->
+                    {{#if currentUser}}
+                        <a href="{{pathFor 'myinfo'}}"><h3>MyInfo</h3></a>
+                    {{else}}
+                        <a href="{{pathFor 'login'}}"><h3>Login</h3></a>
+                    {{/if}}
+                </li>
+                <li>
+                    <a href="{{pathFor 'feed'}}"><h3>Feed</h3></a>
+                </li>
+                <li>
+                    {{#if currentUser}}
+                        <a href="{{pathFor 'rotation'}}"><h3>Rotation</h3></a>
+                    {{/if}}
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        {{>yield}}
+        <br>
+    </div>
+
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</template>
